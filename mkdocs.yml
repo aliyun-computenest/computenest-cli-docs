@@ -1,0 +1,31 @@
+site_name: ComputeNest Cli Docs
+
+plugins:
+  - search
+
+nav:
+  - 首页: index.md
+  - 快速入门: quickstart.md
+  - 命令介绍: commands/index.md
+  - 发布记录:
+      - 1.9.5: releases/1.9.5.md
+  - 实战教程:
+      - Nocobase Deployment: practice/nocobase/index.md
+  - FAQ: faq/index.md
+
+theme:
+  name: material
+  logo: images/computenest.svg
+  collapse_by_default: true
+  features:
+    - content.code.annotate
+    - content.code.copy
+    - navigation.tracking # 在url中使用标题定位锚点
+    - navigation.top
+    - search.suggest
+  highlightjs: true
+  hljs_languages:
+    - yaml
+    - django
+
+copyright: Copyright &copy 2024. Maintained by the ComputeNest Team.
